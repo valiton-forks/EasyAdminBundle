@@ -15,7 +15,14 @@ Upgrade to 2.0.0 (XX/XXX/201X)
    In order to upgrade, you just need to replace `admin` by `easyadmin` in all
    `path()`, `generateUrl()` and `redirectToRoute()` calls.
 
-Upgrade to 1.13.0 (XX/April/2016)
+Upgrade to 1.15.1 (XX/XXX/2016)
+-------------------------------
+
+* The template fragments used to render each property value (e.g. `field_array.html.twig`,
+  `label_null.html.twig`, etc.) now receive two new variables called `entity_config`
+  and `backend_config`, which are useful for advanced backends.
+
+Upgrade to 1.13.0 (11/May/2016)
 ---------------------------------
 
 * The configuration of the backend is no longer processed in a compiler pass
